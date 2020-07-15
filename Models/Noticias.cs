@@ -12,7 +12,7 @@ namespace E_PlayersProjeto.Models
         public string Texto { get; set; }
         public string Imagem { get; set; }
 
-        private const string  PATH = "Database/noticia.csv";
+        private const string  PATH = "Database/Noticias.csv";
         /// <summary>
         /// Método construtor para Criar a pasta/arquivo
         /// </summary>

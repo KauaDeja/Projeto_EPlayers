@@ -4,11 +4,11 @@
 
     <form method="post" action="@Url.Action("Cadastrar")"enctype="multipart/form-data">
 
-    <label for= "IdEquipe">IdEquipe</label>
-    <input type="text" name="IdEquipe" id = "Equipe"/>
+    <label for= "IdNoticia">IdEquipe</label>
+    <input type="text" name="IdEquipe" id = "Equipes"/>
 
     <label for = "Nome">Nome</label>
-    <input type="text" name="Nome" id= "Nome"/>
+    <input type= "text" name="Nome" id= "Nome"/>
 
     <label for = "Imagem">Imagem</label>
     <input type="file" name="Imagem" id= "Imagem"/>
@@ -20,14 +20,14 @@
     <thead>
         <th>ID</th>
         <th>Nome</th>
-        <th>Foto</th>
-        <th>Ações</th>
+        <th>Imagem</th>
     </thead>
     <tbody>
-        @foreach(Equipe item in ViewBag.Equipes){
+        @foreach(Equipe item in ViewBag.equipes){
             <tr>
                 <td>@item.IdEquipe</td>
                 <td>@item.Nome</td>
+
                 <td><img src="img/Equipes/@item.Imagem" alt="Imagem da equipe @item.Nome" width="70"></td>
                 <td><a asp-area="" asp-controller="Equipe" asp-action="Excluir" asp-route-id="@item.IdEquipe">Excluir</a></td>
             </tr>
