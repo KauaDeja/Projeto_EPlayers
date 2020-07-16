@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dejai_000\\Desktop\\Kaua Trabalhos\\Trabalhos BackEnd\\E_PlayersProjeto\\E_PlayersProjeto.csproj",
+      "projectUniqueName": "C:\\Users\\dejai_000\\Desktop\\E_PlayersProjeto\\E_PlayersProjeto.csproj",
       "projectName": "E_PlayersProjeto",
-      "projectPath": "C:\\Users\\dejai_000\\Desktop\\Kaua Trabalhos\\Trabalhos BackEnd\\E_PlayersProjeto\\E_PlayersProjeto.csproj",
+      "projectPath": "C:\\Users\\dejai_000\\Desktop\\E_PlayersProjeto\\E_PlayersProjeto.csproj",
       "packagesPath": "C:\\Users\\dejai_000\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dejai_000\\Desktop\\Kaua Trabalhos\\Trabalhos BackEnd\\E_PlayersProjeto\\obj\\",
+      "outputPath": "C:\\Users\\dejai_000\\Desktop\\E_PlayersProjeto\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dejai_000\\AppData\\Roaming\\NuGet\\NuGet.Config"

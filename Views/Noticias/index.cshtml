@@ -2,28 +2,41 @@
     @{
         ViewData["Title"] = "Noticias";
 
-    <form method="post" action="@Url.Action("Cadastrar")"enctype="multipart/form-data">
+        <div class="titulo_pagina">
+            <h1>cadastro de @ViewData["Title"]</h1>
+        </div>
 
+    <form class = "cadastro" method="post" action="@Url.Action("Cadastrar")"enctype="multipart/form-data">
+
+    <div class= "campo">
     <label for= "IdNoticia">IdNoticia</label>
     <input type="text" name="IdNoticia" id = "Noticia"/>
+    </div>
 
+    <div class= "campo">
     <label for = "Titulo">Titulo</label>
     <input type="text" name="Titulo" id= "Titulo"/>
-    
+    </div>
+
+    <div class= "campo">
     <label for = "Texto">Texto</label>
     <input type="text" name="Texto" id= "Texto"/>
+    </div>
 
+    <div class= "campo">
     <label for = "Imagem">Imagem</label>
     <input type="file" name="Imagem" id= "Imagem"/>
+    </div>
 
-    <button type="submit">Cadastrar</button>
+    <button class = "gradient bnt" type="submit">Cadastrar</button>
 </form>
 
-<table class="table table-striped table-responsive">
+<table>
     <thead>
         <th>ID</th>
         <th>Titulo</th>
         <th>Texto</th>
+        <th>Imagem</th>
     </thead>
     <tbody>
         @foreach(Noticias item in ViewBag.noticias){
@@ -31,8 +44,12 @@
                 <td>@item.IdNoticia</td>
                 <td>@item.Titulo</td>
                 <td>@item.Texto</td>
-                <td><img src="img/Noticias/@item.Imagem" alt="Imagem da noticia @item.Titulo" width="70"></td>
-                <td><a asp-area="" asp-controller="Noticias" asp-action="Excluir" asp-route-id="@item.IdNoticia">Excluir</a></td>
+
+                <td><img src="img/Noticias/@item.Imagem" alt="Imagem da noticia @item.Titulo" width="150"></td>
+                <td><a asp-area="" asp-controller="Noticias" asp-action="Excluir" asp-route-id="@item.IdNoticia">
+                    <i class = "fa fa-trash"></i>
+                </a>
+                </td>
             </tr>
         }
     </tbody>

@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\dejai_000\\Desktop\\Kaua Trabalhos\\Trabalhos BackEnd\\E_PlayersProjeto\\E_PlayersProjeto.csproj",
+  "FilePath": "c:\\Users\\dejai_000\\Desktop\\E_PlayersProjeto\\E_PlayersProjeto.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -20521,48 +20521,43 @@
   "RootNamespace": "E_PlayersProjeto",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\dejai_000\\Desktop\\Kaua Trabalhos\\Trabalhos BackEnd\\E_PlayersProjeto\\Views\\Equipe\\index.cshtml",
+      "FilePath": "c:\\Users\\dejai_000\\Desktop\\E_PlayersProjeto\\Views\\Equipe\\index.cshtml",
       "TargetPath": "Views\\Equipe\\index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\dejai_000\\Desktop\\Kaua Trabalhos\\Trabalhos BackEnd\\E_PlayersProjeto\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\dejai_000\\Desktop\\Kaua Trabalhos\\Trabalhos BackEnd\\E_PlayersProjeto\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\dejai_000\\Desktop\\Kaua Trabalhos\\Trabalhos BackEnd\\E_PlayersProjeto\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\dejai_000\\Desktop\\Kaua Trabalhos\\Trabalhos BackEnd\\E_PlayersProjeto\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\dejai_000\\Desktop\\Kaua Trabalhos\\Trabalhos BackEnd\\E_PlayersProjeto\\Views\\Noticias\\index.cshtml",
-      "TargetPath": "Views\\Noticias\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\dejai_000\\Desktop\\Kaua Trabalhos\\Trabalhos BackEnd\\E_PlayersProjeto\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\dejai_000\\Desktop\\Kaua Trabalhos\\Trabalhos BackEnd\\E_PlayersProjeto\\Views\\_ViewStart.cshtml",
+      "FilePath": "c:\\Users\\dejai_000\\Desktop\\E_PlayersProjeto\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\dejai_000\\Desktop\\Kaua Trabalhos\\Trabalhos BackEnd\\E_PlayersProjeto\\Views\\_ViewImports.cshtml",
+      "FilePath": "c:\\Users\\dejai_000\\Desktop\\E_PlayersProjeto\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dejai_000\\Desktop\\E_PlayersProjeto\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dejai_000\\Desktop\\E_PlayersProjeto\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dejai_000\\Desktop\\E_PlayersProjeto\\Views\\Noticias\\index.cshtml",
+      "TargetPath": "Views\\Noticias\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dejai_000\\Desktop\\E_PlayersProjeto\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dejai_000\\Desktop\\E_PlayersProjeto\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     }
   ],
