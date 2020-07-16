@@ -14,6 +14,11 @@ namespace E_PlayersProjeto.Controllers
     public class EquipeController : Controller
     {
         Equipe equipeModel = new Equipe();
+
+        /// <summary>
+        /// Aponta para a Index da minha View
+        /// </summary>
+        /// <returns>a própria View da Index</returns>
         public IActionResult Index()
         {   
             ViewBag.Equipes = equipeModel.ReadAll();
@@ -33,6 +38,7 @@ namespace E_PlayersProjeto.Controllers
             var file    = form.Files[0];
             var folder  = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/Equipes");
 
+            //Caso n exista o arquivo ele ira criar
             if(file != null)
             {
                 if(!Directory.Exists(folder)){
