@@ -14,7 +14,6 @@ C:\Users\dejai_000\Desktop\Kaua Trabalhos\Trabalhos BackEnd\E_PlayersProjeto\obj
 C:\Users\dejai_000\Desktop\Kaua Trabalhos\Trabalhos BackEnd\E_PlayersProjeto\obj\Debug\netcoreapp3.1\E_PlayersProjeto.RazorCoreGenerate.cache
 C:\Users\dejai_000\Desktop\Kaua Trabalhos\Trabalhos BackEnd\E_PlayersProjeto\obj\Debug\netcoreapp3.1\Razor\Views\Equipe\index.cshtml.g.cs
 C:\Users\dejai_000\Desktop\Kaua Trabalhos\Trabalhos BackEnd\E_PlayersProjeto\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\dejai_000\Desktop\Kaua Trabalhos\Trabalhos BackEnd\E_PlayersProjeto\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\dejai_000\Desktop\Kaua Trabalhos\Trabalhos BackEnd\E_PlayersProjeto\obj\Debug\netcoreapp3.1\Razor\Views\Noticias\index.cshtml.g.cs
 C:\Users\dejai_000\Desktop\Kaua Trabalhos\Trabalhos BackEnd\E_PlayersProjeto\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\dejai_000\Desktop\Kaua Trabalhos\Trabalhos BackEnd\E_PlayersProjeto\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
